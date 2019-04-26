@@ -1,8 +1,8 @@
 // Add your doToElementsInArray() function here:
 function doToElementsInArray(array, callback) {
-  const callback = function(fruit) {
-    return `Mmmm, ${fruit}!!!`;
-  };
+  array.forEach(array => {
+    return `Mmmm, ${array}!!!`;
+  });
 }
 
 // Add your changeCompletely() function here:
