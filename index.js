@@ -4,6 +4,7 @@ function doToElementsInArray(array) {
     return `Mmmm, ${array}!!!`;
   });
 }
+doToElementsInArray(array);
 
 // Add your changeCompletely() function here:
 function changeCompletely(arr) {
