@@ -1,6 +1,6 @@
 // Add your doToElementsInArray() function here:
 function doToElementsInArray(array) {
-  array.forEach(callback => {
+  array.forEach(function callback() {
     return `Mmmm, ${callback}!!!`;
   });
 }
